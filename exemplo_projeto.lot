@@ -1,0 +1,12 @@
+\select@language {brazil}
+\select@language {english}
+\select@language {brazil}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Siglas dos cursos de engenharia da Escola Polit\IeC {\'e}cnica da UFRJ.}}{1}{table.1.1}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Siglas dos programas de p\IeC {\'o}s gradua\IeC {\c c}\IeC {\~a}o da COPPE.}}{2}{table.1.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Exemplos de cita\IeC {\c c}\IeC {\~o}es utilizando o comando padr\IeC {\~a}o \texttt {\textbackslash cite} do \textlatin {\LaTeX }\ e o comando \texttt {\textbackslash citet}, fornecido pelo pacote \texttt {natbib}.}}{3}{table.2.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
