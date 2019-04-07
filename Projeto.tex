@@ -1,31 +1,3 @@
-%%
-%% This is file `example.tex',
-%% generated with the docstrip utility.
-%%
-%% The original source files were:
-%%
-%% coppe.dtx  (with options: `example')
-%% 
-%% This is a sample monograph which illustrates the use of `coppe' document
-%% class and `coppe-unsrt' BibTeX style.
-%% 
-%% \CheckSum{1416}
-%% \CharacterTable
-%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
-%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
-%%   Digits        \0\1\2\3\4\5\6\7\8\9
-%%   Exclamation   \!     Double quote  \"     Hash (number) \#
-%%   Dollar        \$     Percent       \%     Ampersand     \&
-%%   Acute accent  \'     Left paren    \(     Right paren   \)
-%%   Asterisk      \*     Plus          \+     Comma         \,
-%%   Minus         \-     Point         \.     Solidus       \/
-%%   Colon         \:     Semicolon     \;     Less than     \<
-%%   Equals        \=     Greater than  \>     Question mark \?
-%%   Commercial at \@     Left bracket  \[     Backslash     \\
-%%   Right bracket \]     Circumflex    \^     Underscore    \_
-%%   Grave accent  \`     Left brace    \{     Vertical bar  \|
-%%   Right brace   \}     Tilde         \~}
-%%
 \documentclass[grad,numbers]{coppe}
 \usepackage{amsmath,amssymb}
 \usepackage{hyperref}
@@ -38,92 +10,58 @@
 \makeloabbreviations
 
 \begin{document}
-  \title{Título do Projeto}
-  \foreigntitle{Thesis Title}
-  \author{Nome do Autor}{Sobrenome}
-  \advisor{Prof.}{Nome do Primeiro Orientador}{Sobrenome}{D.Sc.}
-  \advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
-  \advisor{Prof.}{Nome do Terceiro Orientador}{Sobrenome}{D.Sc.}
+    \title{Título do Projeto}
+    \foreigntitle{Thesis Title}
+    \author{Lucas Laurentino}{da Costa Ribeiro}
+    \advisor{Prof.}{Nome do Primeiro Orientador}{Sobrenome}{D.Sc.}
+    \advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
+    \advisor{Prof.}{Nome do Terceiro Orientador}{Sobrenome}{D.Sc.}
+    
+    \examiner{Prof.}{Nome do Primeiro Examinador Sobrenome}{D.Sc.}
+    \examiner{Prof.}{Nome do Segundo Examinador Sobrenome}{Ph.D.}
+    \examiner{Prof.}{Nome do Terceiro Examinador Sobrenome}{D.Sc.}
+    \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
+    \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
+    
+    
+    \department{EET}
+    
+    \date{07}{2019}
+    
+    \keyword{Primeira palavra-chave}
+    \keyword{Segunda palavra-chave}
+    \keyword{Terceira palavra-chave}
+    
+    \maketitle
+    
+    \frontmatter
 
-  \examiner{Prof.}{Nome do Primeiro Examinador Sobrenome}{D.Sc.}
-  \examiner{Prof.}{Nome do Segundo Examinador Sobrenome}{Ph.D.}
-  \examiner{Prof.}{Nome do Terceiro Examinador Sobrenome}{D.Sc.}
-  \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
-  \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
-  
-  
-  \department{EET}% Confira a tabela a seguir para saber como preencher o comando \department de acordo com seu curso (Graduação - Poli) ou programa (Pós-Graduação - COPPE).
-  
-  %%%%%% Para alunos da POLI %%%%%%
-  
-  %% Course											Option
-  %% Engenharia Ambiental                             EA
-  %% Engenharia Civil                                 ECV
-  %% Engenharia de Computação e Informação            ECI
-  %% Engenharia de Controle e Automação               ECA
-  %% Engenharia de Materiais                          EMAT
-  %% Engenharia de Petróleo                           EPT
-  %% Engenharia de Produção                           EPR
-  %% Engenharia Eletrônica e de Computação            EEC
-  %% Engenharia Elétrica                              EET
-  %% Engenharia Mecânica                              EMC
-  %% Engenharia Metalúrgica                           EMET
-  %% Engenharia Naval e Oceânica                      ENO
-  %% Engenharia Nuclear                               ENU
-  
-  
-  %%%%%% Para alunos da COPPE %%%%%%
-  
-  %% Program											Option
-  %% Engenharia Biomédica								PEB
-  %% Engenharia Civil									PEC
-  %% Engenharia Elétrica								PEE
-  %% Engenharia Mecânica								PEM
-  %% Engenharia Metalúrgica e de Materiais				PEMM
-  %% Engenharia Nuclear									PEN
-  %% Engenharia Oceânica								PENO
-  %% Planejamento Energético							PPE
-  %% Engenharia de Produção								PEP
-  %% Engenharia Química									PEQ
-  %% Engenharia de Sistemas e Computação				PESC
-  %% Engenharia de Transportes							PET
-  
-  
-  \date{01}{2016}
+\dedication{A alguém cujo valor é digno desta dedicatória.}
 
-  \keyword{Primeira palavra-chave}
-  \keyword{Segunda palavra-chave}
-  \keyword{Terceira palavra-chave}
-
-  \maketitle
-
-  \frontmatter
-  \dedication{A alguém cujo valor é digno desta dedicatória.}
-
-  \chapter*{Agradecimentos}
+\chapter*{Agradecimentos}
 
   Gostaria de agradecer a todos.
 
-  \begin{abstract}
+\begin{abstract}
 
   Apresenta-se, nesta tese, ...
 
-  \end{abstract}
+\end{abstract}
 
-  \begin{foreignabstract}
+\begin{foreignabstract}
 
-  In this work, we present ...
+In this work, we present ...
 
-  \end{foreignabstract}
+\end{foreignabstract}
 
-  \tableofcontents
-  \listoffigures
-  \listoftables
-  \printlosymbols
-  \printloabbreviations
+\tableofcontents
+\listoffigures
+\listoftables
+\printlosymbols
+\printloabbreviations
 
-  \mainmatter
-  \chapter{Introdução}
+\mainmatter
+\chapter{Introdução}
 
   Segundo a norma de formatação de teses e dissertações do
   Instituto Alberto Luiz Coimbra de Pós-graduação e Pesquisa de
@@ -200,12 +138,14 @@
       \label{fig:poli}
     \end{figure}
     
+    
     \begin{figure}
        \centering
        \includegraphics[width=5cm]{coppe-logo.pdf}
-       \caption{Logotipo da COPPE.}
+       \caption{Logotipo da COPPE-UFRJ.}
        \label{fig:coppe}
      \end{figure}
+
 
   \chapter{Revisão Bibliográfica}
 
