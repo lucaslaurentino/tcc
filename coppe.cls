@@ -781,7 +781,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 \ifthenelse{\boolean{poli}}{\newcommand\abstract@toptext{%
 		\noindent Resumo \ifthenelse{\boolean{maledoc}}{do}{da}
 		\local@doctype\ de \@degreename\ \ifthenelse{\boolean{maledoc}}{apresentado}{apresentada}
-		\sloppy\nohyphens{{\` a} Escola Polit\'{e}cnica/ UFRJ como parte dos requisitos
+		\sloppy\nohyphens{{\` a} Escola Polit\'{e}cnica da UFRJ como parte dos requisitos
 			necess{\' a}rios para a obten{\c c}{\~ a}o do grau de
 			\local@degname\  \@degree.}
 	}
