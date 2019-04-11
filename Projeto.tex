@@ -6,6 +6,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 
+\graphicspath{{Figuras/}}
+
 \makelosymbols
 \makeloabbreviations
 
@@ -13,15 +15,11 @@
     \title{Título do Projeto}
     \foreigntitle{Thesis Title}
     \author{Lucas Laurentino}{da Costa Ribeiro}
-    \advisor{Prof.}{Nome do Primeiro Orientador}{Sobrenome}{D.Sc.}
-    \advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
-    \advisor{Prof.}{Nome do Terceiro Orientador}{Sobrenome}{D.Sc.}
+    \advisor{Prof.}{Walter}{Issamu Suemitsu}{D.Sc.}
     
     \examiner{Prof.}{Nome do Primeiro Examinador Sobrenome}{D.Sc.}
     \examiner{Prof.}{Nome do Segundo Examinador Sobrenome}{Ph.D.}
     \examiner{Prof.}{Nome do Terceiro Examinador Sobrenome}{D.Sc.}
-    \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
-    \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
     
     
     \department{EET}
@@ -82,23 +80,21 @@ In this work, we present ...
     \centering
     {\footnotesize
     \begin{tabular}{|c|c|}
-      \hline
-      Sigla & Curso\\
-      \hline
-      EA &  Engenharia Ambiental \\
-      ECV & Engenharia Civil\\
-      ECI & Engenharia de Computação e Informação \\
-      ECA & Engenharia de Controle e Automação \\
-      EMAT & Engenharia de Materiais\\
-      EPT & Engenharia de Petróleo\\
-      EPR & Engenharia de Produção\\
-      EEC & Engenharia Eletrônica e de Computação\\
-      EET & Engenharia Elétrica\\
-      EMC & Engenharia Mecânica\\
-      EMET & Engenharia Metalúrgica\\
-      ENO & Engenharia Naval e Oceânica\\
-      ENU & Engenharia Nuclear\\
-      \hline
+    	\hline
+    	Sigla &                 Curso                 \\ \hline
+    	 EA   &         Engenharia Ambiental          \\
+    	 ECV  &           Engenharia Civil            \\
+    	 ECI  & Engenharia de Computação e Informação \\
+    	 ECA  &  Engenharia de Controle e Automação   \\
+    	EMAT  &        Engenharia de Materiais        \\
+    	 EPT  &        Engenharia de Petróleo         \\
+    	 EPR  &        Engenharia de Produção         \\
+    	 EEC  & Engenharia Eletrônica e de Computação \\
+    	 EET  &          Engenharia Elétrica          \\
+    	 EMC  &          Engenharia Mecânica          \\
+    	EMET  &        Engenharia Metalúrgica         \\
+    	 ENO  &      Engenharia Naval e Oceânica      \\
+    	 ENU  &          Engenharia Nuclear           \\ \hline
     \end{tabular}}
     \end{table}
     
@@ -110,21 +106,19 @@ In this work, we present ...
   	{\footnotesize
   	\begin{tabular}{|c|c|}
   		\hline
-  		Sigla & Curso\\
-  		\hline
-  		PEB & Engenharia Biomédica \\
-  		PEC & Engenharia Civil\\
-  		PEE & Engenharia Elétrica \\
-  		PEM & Engenharia Mecânica \\
-  		PEMM & Engenharia Metalúrgica e de Materiais\\
-  		PEN & Engenharia Nuclear\\
-  		PENO & Engenharia Oceânica\\
-  		PPE & Planejamento Energético\\
-  		PEP & Engenharia de Produção\\
-  		PEQ & Engenharia Química\\
-  		PESC & Engenharia de Sistemas e Computação\\
-  		PET & Engenharia de Transportes\\
-  		\hline
+  		Sigla &                 Curso                 \\ \hline
+  		 PEB  &         Engenharia Biomédica          \\
+  		 PEC  &           Engenharia Civil            \\
+  		 PEE  &          Engenharia Elétrica          \\
+  		 PEM  &          Engenharia Mecânica          \\
+  		PEMM  & Engenharia Metalúrgica e de Materiais \\
+  		 PEN  &          Engenharia Nuclear           \\
+  		PENO  &          Engenharia Oceânica          \\
+  		 PPE  &        Planejamento Energético        \\
+  		 PEP  &        Engenharia de Produção         \\
+  		 PEQ  &          Engenharia Química           \\
+  		PESC  &  Engenharia de Sistemas e Computação  \\
+  		 PET  &       Engenharia de Transportes       \\ \hline
   	\end{tabular}}
   \end{table}
 
@@ -162,21 +156,17 @@ In this work, we present ...
   \centering
   {\footnotesize
   \begin{tabular}{|c|c|c|}
-    \hline
-    Tipo da Publicação & \verb|\cite| & \verb|\citet|\\
-    \hline
-    Livro & \cite{book-example} & \citet{book-example}\\
-    Artigo & \cite{article-example} & \citet{article-example}\\
-    Relatório & \cite{techreport-example} & \citet{techreport-example}\\
-    Relatório & \cite{techreport-exampleIn} & \citet{techreport-exampleIn}\\
-    Anais de Congresso & \cite{inproceedings-example} &
-      \citet{inproceedings-example}\\
-    Séries & \cite{incollection-example} & \citet{incollection-example}\\
-    Em Livro & \cite{inbook-example} & \citet{inbook-example}\\
-    Dissertação de mestrado & \cite{mastersthesis-example} &
-      \citet{mastersthesis-example}\\
-    Tese de doutorado & \cite{phdthesis-example} & \citet{phdthesis-example}\\
-    \hline
+  	\hline
+  	  Tipo da Publicação    &         \verb|\cite|         &         \verb|\citet|         \\ \hline
+  	         Livro          &     \cite{book-example}      &     \citet{book-example}      \\
+  	        Artigo          &    \cite{article-example}    &    \citet{article-example}    \\
+  	       Relatório        &  \cite{techreport-example}   &  \citet{techreport-example}   \\
+  	       Relatório        & \cite{techreport-exampleIn}  & \citet{techreport-exampleIn}  \\
+  	  Anais de Congresso    & \cite{inproceedings-example} & \citet{inproceedings-example} \\
+  	        Séries          & \cite{incollection-example}  & \citet{incollection-example}  \\
+  	       Em Livro         &    \cite{inbook-example}     &    \citet{inbook-example}     \\
+  	Dissertação de mestrado & \cite{mastersthesis-example} & \citet{mastersthesis-example} \\
+  	   Tese de doutorado    &   \cite{phdthesis-example}   &   \citet{phdthesis-example}   \\ \hline
   \end{tabular}}
   \end{table}
   
@@ -204,6 +194,3 @@ In this work, we present ...
   \appendix
   \chapter{Algumas Demonstrações}
 \end{document}
-%% 
-%%
-%% End of file `example.tex'.
