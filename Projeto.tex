@@ -12,8 +12,8 @@
 \makeloabbreviations
 
 \begin{document}
-    \title{Título do Projeto}
-    \foreigntitle{Thesis Title}
+    \title{Implementação de \textit{Problem Based Learning} no curso de Engenharia Elétrica da Universidade Federal do Rio de Janeiro}
+    \foreigntitle{Implementation of Problem Based Learning in the Electrical Engineering course at UFRJ}
     \author{Lucas Laurentino}{da Costa Ribeiro}
     \advisor{Prof.}{Walter}{Issamu Suemitsu}{D.Sc.}
     
@@ -24,7 +24,7 @@
     
     \department{EET}
     
-    \date{07}{2019}
+    \date{08}{2019}
     
     \keyword{Primeira palavra-chave}
     \keyword{Segunda palavra-chave}
@@ -61,136 +61,24 @@ In this work, we present ...
 \mainmatter
 \chapter{Introdução}
 
-  Segundo a norma de formatação de teses e dissertações do
-  Instituto Alberto Luiz Coimbra de Pós-graduação e Pesquisa de
-  Engenharia (COPPE), toda abreviatura deve ser definida antes de
-  utilizada.\abbrev{COPPE}{Instituto Alberto Luiz Coimbra de Pós-graduação e Pesquisa de Engenharia}
 
-  Do mesmo modo, é imprescindível definir os símbolos, tal como o
-  conjunto dos números reais $\mathbb{R}$ e o conjunto vazio $\emptyset$.
-  \symbl{$\mathbb{R}$}{Conjunto dos números reais}
-  \symbl{$\emptyset$}{Conjunto vazio}
-  
-  Você deve selecionar seu curso de engenharia usando o comando \texttt{\textbackslash department\{Sigla\}} e no lugar de Sigla inserir a sigla referente ao seu curso de engenharia. A tabela \ref{tab:courses} relaciona as siglas dos cursos de engenharia da Escola Politécnica da Universidade Federal do Rio de Janeiro (POLI-UFRJ), enquanto que a tabela \ref{tab:programs} relaciona as siglas dos programas de pós graduação da COPPE.\abbrev{POLI-UFRJ}{Escola Politécnica da Universidade Federal do Rio de Janeiro}
-  
-  
-  \begin{table}[h]
-    \caption{Siglas dos cursos de engenharia da Escola Politécnica da UFRJ.}
-    \label{tab:courses}
-    \centering
-    {\footnotesize
-    \begin{tabular}{|c|c|}
-    	\hline
-    	Sigla &                 Curso                 \\ \hline
-    	 EA   &         Engenharia Ambiental          \\
-    	 ECV  &           Engenharia Civil            \\
-    	 ECI  & Engenharia de Computação e Informação \\
-    	 ECA  &  Engenharia de Controle e Automação   \\
-    	EMAT  &        Engenharia de Materiais        \\
-    	 EPT  &        Engenharia de Petróleo         \\
-    	 EPR  &        Engenharia de Produção         \\
-    	 EEC  & Engenharia Eletrônica e de Computação \\
-    	 EET  &          Engenharia Elétrica          \\
-    	 EMC  &          Engenharia Mecânica          \\
-    	EMET  &        Engenharia Metalúrgica         \\
-    	 ENO  &      Engenharia Naval e Oceânica      \\
-    	 ENU  &          Engenharia Nuclear           \\ \hline
-    \end{tabular}}
-    \end{table}
-    
-    
-  \begin{table}[h]
-  	\caption{Siglas dos programas de pós graduação da COPPE.}
-  	\label{tab:programs}
-  	\centering
-  	{\footnotesize
-  	\begin{tabular}{|c|c|}
-  		\hline
-  		Sigla &                 Curso                 \\ \hline
-  		 PEB  &         Engenharia Biomédica          \\
-  		 PEC  &           Engenharia Civil            \\
-  		 PEE  &          Engenharia Elétrica          \\
-  		 PEM  &          Engenharia Mecânica          \\
-  		PEMM  & Engenharia Metalúrgica e de Materiais \\
-  		 PEN  &          Engenharia Nuclear           \\
-  		PENO  &          Engenharia Oceânica          \\
-  		 PPE  &        Planejamento Energético        \\
-  		 PEP  &        Engenharia de Produção         \\
-  		 PEQ  &          Engenharia Química           \\
-  		PESC  &  Engenharia de Sistemas e Computação  \\
-  		 PET  &       Engenharia de Transportes       \\ \hline
-  	\end{tabular}}
-  \end{table}
+\chapter{Revisão Bibliográfica}
 
-
-  Note também que todas as figuras ou tabelas devem ser citadas no texto. Como ocorre com as tabelas \ref{tab:courses} e \ref{tab:programs}. Para ilustrar o uso de figuras em \LaTeX, considere as figuras \ref{fig:poli} e \ref{fig:coppe}.
   
-   \begin{figure}
-      \centering
-      \includegraphics[width=5cm]{poli-logo.pdf}
-      \caption{Logotipo da POLI-UFRJ.}
-      \label{fig:poli}
-    \end{figure}
-    
-    
-    \begin{figure}
-       \centering
-       \includegraphics[width=5cm]{coppe-logo.pdf}
-       \caption{Logotipo da COPPE-UFRJ.}
-       \label{fig:coppe}
-     \end{figure}
-
-
-  \chapter{Revisão Bibliográfica}
-
-  Para ilustrar a completa adesão ao estilo de citações e listagem de
-  referências bibliográficas, a Tabela \ref{tab:citation} apresenta citações de alguns dos trabalhos contidos na norma fornecida pela CPGP da
-  COPPE, utilizando o estilo numérico.
-
-  \begin{table}[h]
-  \caption{Exemplos de citações utilizando o comando padrão
-    \texttt{\textbackslash cite} do \LaTeX\ e
-    o comando \texttt{\textbackslash citet},
-    fornecido pelo pacote \texttt{natbib}.}
-  \label{tab:citation}
-  \centering
-  {\footnotesize
-  \begin{tabular}{|c|c|c|}
-  	\hline
-  	  Tipo da Publicação    &         \verb|\cite|         &         \verb|\citet|         \\ \hline
-  	         Livro          &     \cite{book-example}      &     \citet{book-example}      \\
-  	        Artigo          &    \cite{article-example}    &    \citet{article-example}    \\
-  	       Relatório        &  \cite{techreport-example}   &  \citet{techreport-example}   \\
-  	       Relatório        & \cite{techreport-exampleIn}  & \citet{techreport-exampleIn}  \\
-  	  Anais de Congresso    & \cite{inproceedings-example} & \citet{inproceedings-example} \\
-  	        Séries          & \cite{incollection-example}  & \citet{incollection-example}  \\
-  	       Em Livro         &    \cite{inbook-example}     &    \citet{inbook-example}     \\
-  	Dissertação de mestrado & \cite{mastersthesis-example} & \citet{mastersthesis-example} \\
-  	   Tese de doutorado    &   \cite{phdthesis-example}   &   \citet{phdthesis-example}   \\ \hline
-  \end{tabular}}
-  \end{table}
-  
-  É importante notar que, segundo a \href{http://www.poli.ufrj.br/graduacao_projeto.php}{Norma para a Elaboração Gráfica do Projeto de Graduação} da Escola Politécnica da UFRJ para trabalhos de conclusão de curso de engenharia de julho de 2012, as referências bibliográficas podem ser apresentadas de duas formas: $(i)$ Referências numeradas e $(ii)$ Referências em ordem alfabética. Para exibição numerada, em que a exibição das referências bibliográficas segue a ordem de citação usada no texto, use o comando \texttt{\textbackslash bibliographystyle\{coppe-unsrt\}}. Para exibição de referências bibliográficas em ordem alfabética, basta usar o comando \texttt{\textbackslash bibliographystyle\{coppe-plain\}} ao final do documento. 
+\chapter{Método Proposto}
   
   
-  \chapter{Método Proposto}
+\chapter{Resultados e Discussões}
   
   
-  
-  \chapter{Resultados e Discussões}
-  
-  
-  
-  \chapter{Conclusões}
-  
-  
-  
+\chapter{Conclusões}
   
 
-  \backmatter
-  \bibliographystyle{coppe-unsrt}
-  \bibliography{example}
+\backmatter
+\bibliographystyle{coppe-unsrt}
+\bibliography{example}
 
-  \appendix
-  \chapter{Algumas Demonstrações}
+\appendix
+\chapter{Algumas Demonstrações}
+  	
 \end{document}
