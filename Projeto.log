@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  25 JUN 2019 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  11 JUL 2019 19:41
 entering extended mode
 **./Projeto.tex
 (Projeto.tex
@@ -424,7 +424,8 @@ Writing index of symbols file Projeto.syx
 \openout4 = `Projeto.abx'.
 
 Writing index of abbreviations file Projeto.abx
-(Projeto.aux)
+(Projeto.aux (intro.aux) (revisao.aux) (metodo.aux) (resultados.aux)
+(conclusoes.aux))
 \openout1 = `Projeto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -530,21 +531,21 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write5
 \openout5 = `Projeto.out'.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 33.
-Package hyperref Info: Option `raiselinks' set `true' on input line 33.
-Package hyperref Info: Option `pageanchor' set `true' on input line 33.
+Package hyperref Info: Option `breaklinks' set `true' on input line 31.
+Package hyperref Info: Option `raiselinks' set `true' on input line 31.
+Package hyperref Info: Option `pageanchor' set `true' on input line 31.
 <Figuras/poli-logo.pdf, id=67, 708.6475pt x 282.05376pt>
 File: Figuras/poli-logo.pdf Graphic file (type pdf)
 <use Figuras/poli-logo.pdf>
-Package pdftex.def Info: Figuras/poli-logo.pdf  used on input line 33.
+Package pdftex.def Info: Figuras/poli-logo.pdf  used on input line 31.
 (pdftex.def)             Requested size: 213.39566pt x 84.93526pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 ("C:\Users\lucas.ribeiro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
 msa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 ("C:\Users\lucas.ribeiro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
 msb.fd"
@@ -554,17 +555,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/lucas.ribeiro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./F
 iguras/poli-logo.pdf>]
-Underfull \hbox (badness 1540) in paragraph at lines 34--34
+Underfull \hbox (badness 1540) in paragraph at lines 32--32
 \T1/cmr/m/n/12 PROJETO DE GRA-DU-A-ÇÃO SUB-ME-TIDO []AO CORPO DOCENTE DO
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 34--34
+Underfull \hbox (badness 8151) in paragraph at lines 32--32
 \T1/cmr/m/n/12 CURSO DE ENGENHARIA ELÉTRICA DA ESCOLA POLITÉCNICA
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 34--34
+Underfull \hbox (badness 1694) in paragraph at lines 32--32
 \T1/cmr/m/n/12 DA UNIVERSIDADE FEDERAL DO RIO DE JANEIRO COMO PARTE
  []
 
@@ -601,27 +602,52 @@ Underfull \hbox (badness 1694) in paragraph at lines 34--34
 ]) [10
 
 ]
+\openout2 = `intro.aux'.
+
+ (intro.tex
 Cap\'{\i }tulo 1.
-[1
+) [1
+
 
 
 ]
+\openout2 = `revisao.aux'.
+
+ (revisao.tex
 Cap\'{\i }tulo 2.
-[2
+) [2
+
+
 
 ]
+\openout2 = `metodo.aux'.
+
+ (metodo.tex
 Cap\'{\i }tulo 3.
-[3
+) [3
+
+
 
 ]
+\openout2 = `resultados.aux'.
+
+ (resultados.tex
 Cap\'{\i }tulo 4.
-[4
+) [4
+
+
 
 ]
+\openout2 = `conclusoes.aux'.
+
+ (conclusoes.tex
 Cap\'{\i }tulo 5.
-[5
+) [5
+
+
 
 ] (Projeto.bbl) [6
+
 
 
 ]
@@ -631,23 +657,24 @@ AED: lastpage setting LastPage
 [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
- (Projeto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+ (Projeto.aux (intro.aux) (revisao.aux) (metodo.aux) (resultados.aux)
+(conclusoes.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `Projeto.out' has not changed.
 (rerunfilecheck)             Checksum: E2A5D2942A5DAF10E09E74938F3BC195;964.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 7979 strings out of 492945
- 117105 string characters out of 3122700
- 230135 words of memory out of 3000000
- 11674 multiletter control sequences out of 15000+200000
+ 8017 strings out of 492945
+ 118595 string characters out of 3122700
+ 231999 words of memory out of 3000000
+ 11677 multiletter control sequences out of 15000+200000
  14300 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,30p,240b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,9n,32p,253b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecbi1728.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lucas.ribeiro\AppData\Local\Mi
@@ -656,9 +683,9 @@ o\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\
 Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecti1200.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
 jknappen/ec/dpi600\ecrm1200.pk>
-Output written on Projeto.pdf (17 pages, 196901 bytes).
+Output written on Projeto.pdf (17 pages, 196627 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
+ 477 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
