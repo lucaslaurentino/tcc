@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  15 JUL 2019 03:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  15 JUL 2019 03:46
 entering extended mode
 **./Projeto.tex
 (Projeto.tex
@@ -535,21 +535,21 @@ LaTeX Info: Redefining \nameref on input line 15.
 \@outlinefile=\write5
 \openout5 = `Projeto.out'.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 32.
-Package hyperref Info: Option `raiselinks' set `true' on input line 32.
-Package hyperref Info: Option `pageanchor' set `true' on input line 32.
+Package hyperref Info: Option `breaklinks' set `true' on input line 34.
+Package hyperref Info: Option `raiselinks' set `true' on input line 34.
+Package hyperref Info: Option `pageanchor' set `true' on input line 34.
 <Figuras/poli-logo.pdf, id=67, 708.6475pt x 282.05376pt>
 File: Figuras/poli-logo.pdf Graphic file (type pdf)
 <use Figuras/poli-logo.pdf>
-Package pdftex.def Info: Figuras/poli-logo.pdf  used on input line 32.
+Package pdftex.def Info: Figuras/poli-logo.pdf  used on input line 34.
 (pdftex.def)             Requested size: 213.39566pt x 84.93526pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 ("C:\Users\lucas.ribeiro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
 msa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 ("C:\Users\lucas.ribeiro\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
 msb.fd"
@@ -559,17 +559,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/lucas.ribeiro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./F
 iguras/poli-logo.pdf>]
-Underfull \hbox (badness 1540) in paragraph at lines 33--33
+Underfull \hbox (badness 1540) in paragraph at lines 35--35
 \T1/cmr/m/n/12 PROJETO DE GRA-DU-A-ÇÃO SUB-ME-TIDO []AO CORPO DOCENTE DO
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 33--33
+Underfull \hbox (badness 8151) in paragraph at lines 35--35
 \T1/cmr/m/n/12 CURSO DE ENGENHARIA ELÉTRICA DA ESCOLA POLITÉCNICA
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 33--33
+Underfull \hbox (badness 1694) in paragraph at lines 35--35
 \T1/cmr/m/n/12 DA UNIVERSIDADE FEDERAL DO RIO DE JANEIRO COMO PARTE
  []
 
@@ -625,7 +625,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<Figuras/evolucao_cursos_engenharias.png, id=146, 352.9185pt x 174.05025pt>
+<Figuras/evolucao_cursos_engenharias.png, id=147, 352.9185pt x 174.05025pt>
 File: Figuras/evolucao_cursos_engenharias.png Graphic file (type png)
 <use Figuras/evolucao_cursos_engenharias.png>
 Package pdftex.def Info: Figuras/evolucao_cursos_engenharias.png  used on input
@@ -636,19 +636,24 @@ Package pdftex.def Info: Figuras/evolucao_cursos_engenharias.png  used on input
 
 
  <./Figuras/evolucao_cursos_engenharias.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-<Figuras/evolucao_matriculados_concluintes.png, id=154, 352.9185pt x 171.039pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+<Figuras/evolucao_matriculados_concluintes.png, id=155, 352.9185pt x 171.039pt>
 
 File: Figuras/evolucao_matriculados_concluintes.png Graphic file (type png)
 <use Figuras/evolucao_matriculados_concluintes.png>
 Package pdftex.def Info: Figuras/evolucao_matriculados_concluintes.png  used on
- input line 27.
+ input line 30.
 (pdftex.def)             Requested size: 320.0935pt x 155.13419pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
@@ -705,15 +710,15 @@ AED: lastpage setting LastPage
 [9
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (Projeto.aux (intro.aux) (revisao.aux) (metodo.aux) (resultados.aux)
 (conclusoes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `Projeto.out' has not changed.
 (rerunfilecheck)             Checksum: 158256AF98522621443D12281D9034E8;963.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
  8037 strings out of 492945
@@ -722,19 +727,19 @@ Here is how much of TeX's memory you used:
  11689 multiletter control sequences out of 15000+200000
  14613 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,32p,559b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,9n,32p,523b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
 /dpi600\ectt1200.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbi1728.pk> <C:\Users\lucas.ribeiro\AppData\Local\Mi
 KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lucas.ribeir
-o\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\
+o\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\
 Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbx2488.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.
+\ecbx1200.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.
 9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk>
-Output written on Projeto.pdf (19 pages, 227574 bytes).
+Output written on Projeto.pdf (19 pages, 222242 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
+ 514 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
  144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
