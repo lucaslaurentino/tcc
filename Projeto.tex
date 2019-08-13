@@ -6,6 +6,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{indentfirst}
+%\usepackage{booktabs}
+\usepackage{multirow}
 
 \graphicspath{{Figuras/}}
 
@@ -13,13 +15,14 @@
 \makeloabbreviations
 
 \begin{document}
-	\title{Título do projeto}
-	\foreigntitle{Project title}
-    %\title{Implementação de \textit{Problem Based Learning} no curso de Engenharia Elétrica da Universidade Federal do Rio de Janeiro}
-    %\foreigntitle{Implementation of Problem Based Learning in the Electrical Engineering course at UFRJ}
+	%\title{Título do projeto}
+	%\foreigntitle{Project title}
+    \title{Implementação de Aprendizagem Baseada em Problemas no curso de Engenharia Elétrica da UFRJ}
+    \foreigntitle{Implementation of Problem Based Learning in the Electrical Engineering course at UFRJ}
     \author{Lucas Laurentino}{da Costa Ribeiro}
     \advisor{Prof.}{Walter}{Issamu Suemitsu}{D.Sc.}
     
+    \examiner{Prof.}{Walter Issamu Suemitsu}{D.Ing.}
     \examiner{Prof.}{Nome do Primeiro Examinador Sobrenome}{D.Sc.}
     \examiner{Prof.}{Nome do Segundo Examinador Sobrenome}{Ph.D.}
     
@@ -44,13 +47,13 @@
 
 \begin{abstract}
 
-  Apresenta-se, nesta tese, ...
+	Apresenta-se, nesta tese, ...
 
 \end{abstract}
 
 \begin{foreignabstract}
 
-In this work, we present ...
+	In this work, we present ...
 
 \end{foreignabstract}
 
@@ -64,15 +67,16 @@ In this work, we present ...
 % makeindex -s coppe.ist -o Projeto.lab Projeto.abx
 % makeindex -s coppe.ist -o Projeto.los Projeto.syx
 
+% ou simplesmente executar o arquivo atualiza.bat
+
 \mainmatter
 
 \include{intro} 
-
-\include{revisao}
-  
+\include{revisao_ensino} 
+\include{revisao_curso}
 \include{metodo}
 
-\include{resultados}  
+%\include{resultados}  
   
 \include{conclusoes}
 
@@ -81,6 +85,83 @@ In this work, we present ...
 \bibliography{Projeto}
 
 \appendix
-\chapter{Algumas Demonstrações}
+\chapter{Compilado do Censo da Educação Superior}
+
+	O Censo da Educação Superior é disponibilizado anualmente, com dados divididos em um conjunto razoavelmente homogêneo de informações, mas cujo formato varia ano a ano. Este capítulo apresenta um compilado dessas informações, conforme apresentado nos gráficos \ref{fig:evolucaocursosengenharias} e \ref{fig:evolucaomatriculadosconcluintes}.
+	
+	\begin{table}[h!]
+		\centering
+		\caption{Dados do Censo da Educação Superior entre 2002 e 2017}
+		\label{tab:dadosCenso}
+		\begin{tabular}{|c|c||c|c||}
+			\hline
+			Categoria                      & Ano  & Pública & Privada \\ \hline
+			%\multirow{4}{*}{Instituições} & 2002 &    -    &    -    \\
+			%                              & 2007 &    -    &    -    \\
+			%                              & 2012 &   170   &   362   \\
+			%                              & 2017 &   189   &   575   \\ \hline
+			\multirow{4}{*}{Cursos}        & 2002 &   174   &   169   \\
+			                               & 2007 &   157   &   274   \\
+			                               & 2012 &   330   &   548   \\
+			                               & 2017 &   413   &   858   \\ \hline
+			\multirow{4}{*}{Matrículas}    & 2002 & 27.232  & 36.378  \\
+			                               & 2007 & 33.490  & 48.623  \\
+			                               & 2012 & 61.739  & 97.882  \\
+			                               & 2017 & 89.448  & 123.384 \\ \hline
+			\multirow{4}{*}{Concluintes}   & 2002 &  2.895  &  2.931  \\
+			                               & 2007 &  4.169  &  5.236  \\
+			                               & 2012 &  4.950  &  9.760  \\
+			                               & 2017 &  6.984  & 12.677  \\ \hline
+		\end{tabular}
+	\end{table}
+
+	% Please add the following required packages to your document preamble:
+	% \usepackage{multirow}
+	\begin{table}[]
+		\centering
+		\caption{Cursos considerados nos dados do Censo da Educação Superior}
+		\label{tab:cursosCenso}
+		\begin{tabular}{|r||l||}
+			\hline
+			                               Categoria & Curso                                          \\ \hline
+			\multirow{14}{*}{Eletricidade e energia} & Distribuição de energia elétrica               \\
+			                                         & Eletricidade                                   \\
+			                                         & Engenharia de produção elétrica                \\
+			                                         & Engenharia elétrica                            \\
+			                                         & Engenharia eletrotécnica                       \\
+			                                         & Engenharia industrial elétrica                 \\
+			                                         & Estudos de energia                             \\
+			                                         & Instalações elétricas                          \\
+			                                         & Produção de energia                            \\
+			                                         & Refrigeração / aquecimento                     \\
+			                                         & Refrigeração/aquecimento                       \\
+			                                         & Tecnologia elétrica                            \\
+			                                         & Tecnologia em eletrotécnica                    \\
+			                                         & Transmissão e distribuição de energia elétrica \\ \hline
+			\multirow{23}{*}{Eletrônica e automação} & Automação                                      \\
+			                                         & Controle e automação                           \\
+			                                         & Eletrônica                                     \\
+			                                         & Eletrônica industrial                          \\
+			                                         & Engenharia de computação                       \\
+			                                         & Engenharia de comunicações                     \\
+			                                         & Engenharia de controle e automação             \\
+			                                         & Engenharia de redes de comunicação             \\
+			                                         & Engenharia de telecomunicações                 \\
+			                                         & Engenharia eletrônica                          \\
+			                                         & Engenharia mecatrônica                         \\
+			                                         & Manutenção de aparelhos médico-hospitalares    \\
+			                                         & Manutenção de equipamentos eletrônicos         \\
+			                                         & Manutenção de máquinas e equipamentos          \\
+			                                         & Redes de computadores                          \\
+			                                         & Sistemas de comunicação                        \\
+			                                         & Sistemas Eletrônicos (Experimental)            \\
+			                                         & Tecnologia de transmissão de dados             \\
+			                                         & Tecnologia digital                             \\
+			                                         & Tecnologia eletrônica                          \\
+			                                         & Tecnologia mecatrônica                         \\
+			                                         & Telecomunicações                               \\
+			                                         & Telemática                                     \\ \hline
+		\end{tabular}
+	\end{table}
   	
 \end{document}

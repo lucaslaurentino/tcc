@@ -1,8 +1,9 @@
 
 \begin{theglossary}
   \makeatletter
+  \item [APB] Aprendizagem Baseada em Problemas, p. \hyperpage{3}
   \item [IES] Institui\IeC {\c c}\IeC {\~a}o de Ensino Superior, p. 
-		\hyperpage{1}
+		\hyperpage{2}
   \item [Poli] Escola Polit\IeC {\'e}cnica, p. \hyperpage{1}
   \item [UFRJ] Universidade Federal do Rio de Janeiro, p. \hyperpage{1}
   \end{theglossary}
