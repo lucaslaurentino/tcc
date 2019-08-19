@@ -1,0 +1,34 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Projeto.aux
+A level-1 auxiliary file: intro.aux
+A level-1 auxiliary file: revisao_ensino.aux
+A level-1 auxiliary file: revisao_curso.aux
+A level-1 auxiliary file: metodo.aux
+A level-1 auxiliary file: conclusoes.aux
+The style file: coppe-unsrt.bst
+Database file #1: Projeto.bib
+Warning--entry type for "historia-confea" isn't style-file defined
+--line 11 of file Projeto.bib
+I was expecting a `,' or a `}'---line 15 of file Projeto.bib
+ :  
+ :  urldate = {2019-07-14}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "censo_educacao_superior" isn't style-file defined
+--line 18 of file Projeto.bib
+I was expecting a `,' or a `}'---line 22 of file Projeto.bib
+ :  
+ :  urldate = {2019-07-19}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 29 of file Projeto.bib
+ :  
+ :  urldate = {2019-08-19}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "ago" is undefined
+--line 38 of file Projeto.bib
+Warning--empty journal in surgimento_engenharia_brasil
+Warning--empty year in historia-confea
+Warning--empty year in censo_educacao_superior
+Warning--empty booktitle in demanda_engenheiros
+(There were 3 error messages)

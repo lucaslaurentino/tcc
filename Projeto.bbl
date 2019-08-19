@@ -1,0 +1,38 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Macedo} e \MakeUppercase{Sapunaru}(2016)Macedo e
+  Sapunaru]{surgimento_engenharia_brasil}
+\MakeUppercase{Macedo, G.~M., Sapunaru, R.~A.}
+\newblock \enquote{Uma breve história da engenharia e seu ensino no Brasil e
+  no mundo: foco Minas Gerais}, v.~10, n.~1, \penalty0 pp.~43--45, 2016.
+
+\bibitem[his()]{historia-confea}
+\enquote{Sistema Profissional: História}. Dispon{\' i}vel em:
+  \textless\url{http://www.confea.org.br/sistema-profissional/historia}\textgreater
+  .
+\newblock Acesso em 14 de Julho de 2019.
+
+\bibitem[cen()]{censo_educacao_superior}
+\enquote{Censo da Educação Superior}. Dispon{\' i}vel em:
+  \textless\url{http://inep.gov.br/censo-da-educacao-superior}\textgreater .
+\newblock Acesso em 19 de Julho de 2019.
+
+\bibitem[\MakeUppercase{de~Souza} e \MakeUppercase{Domingues}(2014)de~Souza e
+  Domingues]{demanda_engenheiros}
+\MakeUppercase{de~Souza, K.~B., Domingues, E.~P.}
+\newblock \enquote{Mapeamento e projeção da demanda por engenheiros por
+  categoria, setor e microrregiões brasileiras}. pp. 384--387, 2014.
+
+\bibitem[\MakeUppercase{Ribeiro}(2008)Ribeiro]{students_evaluate_pbl}
+\MakeUppercase{Ribeiro, L.}
+\newblock \enquote{Electrical Engineering Students Evaluate Problem-Based
+  Learning (PBL)}, \emph{International Journal of Electrical Engineering
+  Education}, v.~45, \penalty0 pp.~152--161, 04 2008.
+
+\end{thebibliography}
