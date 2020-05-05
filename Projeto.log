@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  19 AUG 2019 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  4 MAY 2020 21:54
 entering extended mode
 **./Projeto.tex
 (Projeto.tex
@@ -750,13 +750,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `Projeto.out' has not changed.
-(rerunfilecheck)             Checksum: 17D406E7188DEF808BE6EF5AB651B4DC;1002.
+(rerunfilecheck)             Checksum: 8978C02872315E31E40DA135FBDDAADB;1008.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
  8105 strings out of 492945
- 120826 string characters out of 3122700
- 240042 words of memory out of 3000000
+ 120322 string characters out of 3122700
+ 240044 words of memory out of 3000000
  11748 multiletter control sequences out of 15000+200000
  13913 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -769,7 +769,7 @@ o\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\
 Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecbx2488.pk> <C:\Users\lucas.ribeiro\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
 jknappen/ec/dpi600\ecrm1200.pk>
-Output written on Projeto.pdf (20 pages, 228772 bytes).
+Output written on Projeto.pdf (20 pages, 228785 bytes).
 PDF statistics:
  527 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
